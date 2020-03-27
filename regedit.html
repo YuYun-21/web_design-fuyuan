@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html><strong></strong>
+	<head>
+		<meta charset="utf-8" />
+		<title>用户注册页面</title>
+	<style type="text/css">
+		body{
+			background-color: lightslategrey;
+		}
+		.form{
+			width: 500px;
+			padding: 50px;
+			line-height: 2em;
+			margin: 0 auto;
+			
+		}
+	</style>
+	</head>
+	<body>
+		<div class="form">
+			<fieldset style="border-radius: 20px;background-image: url(img/bgc.jpg);background-repeat: no-repeat;background-size: 500px 500px;">
+			
+			<fieldset style="border-radius: 15px;">
+				<legend align="center">用户注册</legend>
+			<fieldset>
+			<h3 align="center"></h1>
+			<form action="login.html" onsubmit="javascript:alert('注册完成')">
+			用户名：<input type="text" name="yhm" id="yhm" value="" size="6" maxlength="12" required oninvalid="setCustomValidity('请输入用户名')" oninput="setCustomValidity('')"/>	
+			<br>密码：<input type="password" name="psaaword" id="pwd" value="" required oninvalid="setCustomValidity('请输入密码')" oninput="setCustomValidity('')"/>
+			<br>性别:<input type="radio" name="sex" value="男"  checked="1"/> 男 <input type="radio" name="sex" value="女" />女
+			<br>年龄：<input type="number" name="nl" id="nl" value="" size="2" min="16" max="120" step="1"  required="1"/>
+			<br>联系电话：<input type="tel" name="tel" id="tel" value=""  maxlength="11" placeholder="请填写手机号码" required oninvalid="setCustomValidity('请填写手机号码')" oninput="setCustomValidity('')"/>
+			<br>
+			<label for="Name2">邮箱：</label>
+			<input type="text" name="Name2" id="Name2" required="1">
+			@
+			<select name="E-mail" id="E-mail">
+				<option value="126.com" selected>126.com</option>
+				<option value="163.com">163.com</option>
+				<option value="189.com">189.com</option>
+				<option value="qq.com">qq.com</option>
+				<option value="email.com">email.com</option>
+			</select>
+					<div align="center" style="margin-top: 30px;">
+						<a style="text-decoration: none;" href="login.html"><font size="2" color="#F5DEB3">
+						<button style="border-radius: 5px;background-color: #F5DEB3;margin: 0 auto; border: 1px solid #00BFFF;width: 120px;height: 25px;font-size: 16px;" name="" id="tj">提交注册信息</button></font>
+					</a>
+					<a href="index.html"><button style="border-radius: 5px;background-color: #F5DEB3;margin: 0 auto;margin-left: 60px; border: 1px solid #00BFFF;width: 50px;" type="button">返回</button>
+					</a>
+					</div>
+			</form>
+			</fieldset>
+			</fieldset>
+			</fieldset>
+		</div>
+	</body>
+</html>
+
